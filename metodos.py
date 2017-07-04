@@ -41,5 +41,20 @@ class MetodosContorno():
         v[i+1] = v[i]
         return theta,v,t
         
-    def RangeKutta4(self):
+    def RangeKutta4(self, problema, M, tmax): #DUVIDAAAS
+#        if(M==0):
+#            print 'divisão por zero'
+#        else if(M<0):
+#            print 'intervalo inválido'
+#        else:
+#            contorno1 = problema.contorno_X()[0]
+#            contorno2 = problema.contorno_X()[1]
+#            h = (xn - x0)/M
+#            for i in range()
+#            k_1 = h*problema.funcao(contorno1, contorno2) # k_1 = h*problema.funcao(xn, yn)
+#            k_2 = h*problema.funcao(xn + (1/2)*h, yn + (1/2)*k_1)
+#            k_3 = h*problema.funcao(xn + (1/2)*h, yn + (1/2)*k_2)
+#            k_4 = h*problema.funcao(xn + h, yn + k_3)
+#            
+#            y = yn + (1/6)*(K_1 + 2*k_2 + 2*k_3 + k_4)
         return 0
