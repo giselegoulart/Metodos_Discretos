@@ -3,8 +3,8 @@ import numpy as np
 import math
 import pylab as pl
 
-import equacoes
-import metodos
+from equacoes import *
+from metodos import *
 ###############################################################################
 
 mc = MetodosContorno()
@@ -17,3 +17,6 @@ theta, v, t= mc.Verlet(problema, M, tmax)
 
 
 pl.plot(t,theta,'-')
+
+theta2, v2, t2 = mc.RangeKutta4(problema, M, tmax)
+pl.plot(t2,theta2,'-')
