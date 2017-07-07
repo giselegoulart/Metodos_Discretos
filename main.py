@@ -10,7 +10,7 @@ from metodos import *
 mc = MetodosContorno()
 problema = Problema2()
 
-M=200
+M=1000000
 
 tmax=100.0
 theta, v, t= mc.Verlet(problema, M, tmax)

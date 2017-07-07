@@ -53,7 +53,7 @@ class MetodosContorno():
         theta[contorno1] = problema.contorno_Y()[0]
         v[contorno2] = problema.contorno_Y()[1]
         t[0] = 0
-        for i in range(len(t)-1):
+        for i in range(0,len(t)-1):
             w1 = problema.funcao(t[i], theta[i])
             w2 = problema.funcao(t[i], theta[i] + (h/2)*w1)
             w3 = problema.funcao(t[i], theta[i] + (h/2)*w2)
