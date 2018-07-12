@@ -1,0 +1,458 @@
+teste1_wiki.txt
+
+Numero de nos inseridos : 6
+Qtd de arestas candidatas: 6
+No 1 No 2 ID Aresta 1
+Atualizacao da solucao global. Nova qtd de arestas na solucao: 1
+
+ Arestas na solucao final do Forca Bruta: 1
+
+Gerou sat.in com K=1
+WARNING: for repeatability, setting FPU to use double precision
+============================[ Problem Statistics ]=============================
+|                                                                             |
+|  Number of variables:             6                                         |
+|  Number of clauses:              20                                         |
+|  Parse time:                   0.00 s                                       |
+|                                                                             |
+============================[ Search Statistics ]==============================
+| Conflicts |          ORIGINAL         |          LEARNT          | Progress |
+|           |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |
+===============================================================================
+===============================================================================
+restarts              : 1
+conflicts             : 0              (-nan /sec)
+decisions             : 1              (0.00 % random) (inf /sec)
+propagations          : 6              (inf /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 20.00 MB
+CPU time              : 0 s
+
+SATISFIABLE
+
+ SAT retornou instancia satisfativel com K=1
+
+
+teste2_wiki.txt
+
+Numero de nos inseridos : 6
+Qtd de arestas candidatas: 7
+No 1 No 2 ID Aresta 1
+No 3 No 5 ID Aresta 4
+No 4 No 6 ID Aresta 7
+Atualizacao da solucao global. Nova qtd de arestas na solucao: 3
+No 1 No 3 ID Aresta 2
+No 2 No 4 ID Aresta 3
+Atualizacao da solucao global. Nova qtd de arestas na solucao: 2
+
+ Arestas na solucao final do Forca Bruta: 2
+
+Gerou sat.in com K=1
+WARNING: for repeatability, setting FPU to use double precision
+============================[ Problem Statistics ]=============================
+|                                                                             |
+|  Number of variables:             7                                         |
+|  Number of clauses:              24                                         |
+|  Parse time:                   0.00 s                                       |
+|                                                                             |
+===============================================================================
+Solved by unit propagation
+restarts              : 0
+conflicts             : 0              (-nan /sec)
+decisions             : 0              (-nan % random) (-nan /sec)
+propagations          : 7              (inf /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 20.00 MB
+CPU time              : 0 s
+
+UNSATISFIABLE
+
+Gerou sat.in com K=2
+WARNING: for repeatability, setting FPU to use double precision
+============================[ Problem Statistics ]=============================
+|                                                                             |
+|  Number of variables:            14                                         |
+|  Number of clauses:              59                                         |
+|  Parse time:                   0.00 s                                       |
+|                                                                             |
+============================[ Search Statistics ]==============================
+| Conflicts |          ORIGINAL         |          LEARNT          | Progress |
+|           |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |
+===============================================================================
+===============================================================================
+restarts              : 1
+conflicts             : 0              (-nan /sec)
+decisions             : 9              (0.00 % random) (inf /sec)
+propagations          : 14             (inf /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 20.00 MB
+CPU time              : 0 s
+
+SATISFIABLE
+
+ SAT retornou instancia satisfativel com K=2
+
+
+teste3_wiki.txt
+
+Numero de nos inseridos : 5
+Qtd de arestas candidatas: 6
+No 1 No 2 ID Aresta 1
+No 4 No 5 ID Aresta 6
+Atualizacao da solucao global. Nova qtd de arestas na solucao: 2
+
+ Arestas na solucao final do Forca Bruta: 2
+
+Gerou sat.in com K=1
+WARNING: for repeatability, setting FPU to use double precision
+============================[ Problem Statistics ]=============================
+|                                                                             |
+|  Number of variables:             6                                         |
+|  Number of clauses:              18                                         |
+|  Parse time:                   0.00 s                                       |
+|                                                                             |
+===============================================================================
+Solved by unit propagation
+restarts              : 0
+conflicts             : 0              (-nan /sec)
+decisions             : 0              (-nan % random) (-nan /sec)
+propagations          : 6              (inf /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 20.00 MB
+CPU time              : 0 s
+
+UNSATISFIABLE
+
+Gerou sat.in com K=2
+WARNING: for repeatability, setting FPU to use double precision
+============================[ Problem Statistics ]=============================
+|                                                                             |
+|  Number of variables:            12                                         |
+|  Number of clauses:              46                                         |
+|  Parse time:                   0.00 s                                       |
+|                                                                             |
+============================[ Search Statistics ]==============================
+| Conflicts |          ORIGINAL         |          LEARNT          | Progress |
+|           |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |
+===============================================================================
+===============================================================================
+restarts              : 1
+conflicts             : 0              (-nan /sec)
+decisions             : 9              (0.00 % random) (inf /sec)
+propagations          : 12             (inf /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 20.00 MB
+CPU time              : 0 s
+
+SATISFIABLE
+
+ SAT retornou instancia satisfativel com K=2
+
+
+teste4.txt
+
+Numero de nos inseridos : 8
+Qtd de arestas candidatas: 8
+No 1 No 2 ID Aresta 1
+No 3 No 4 ID Aresta 3
+No 7 No 8 ID Aresta 8
+Atualizacao da solucao global. Nova qtd de arestas na solucao: 3
+
+ Arestas na solucao final do Forca Bruta: 3
+
+Gerou sat.in com K=1
+WARNING: for repeatability, setting FPU to use double precision
+============================[ Problem Statistics ]=============================
+|                                                                             |
+|  Number of variables:             8                                         |
+|  Number of clauses:              30                                         |
+|  Parse time:                   0.00 s                                       |
+|                                                                             |
+===============================================================================
+Solved by unit propagation
+restarts              : 0
+conflicts             : 0              (-nan /sec)
+decisions             : 0              (-nan % random) (-nan /sec)
+propagations          : 8              (inf /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 20.00 MB
+CPU time              : 0 s
+
+UNSATISFIABLE
+
+Gerou sat.in com K=2
+WARNING: for repeatability, setting FPU to use double precision
+============================[ Problem Statistics ]=============================
+|                                                                             |
+|  Number of variables:            16                                         |
+|  Number of clauses:              69                                         |
+|  Parse time:                   0.00 s                                       |
+|                                                                             |
+============================[ Search Statistics ]==============================
+| Conflicts |          ORIGINAL         |          LEARNT          | Progress |
+|           |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |
+===============================================================================
+===============================================================================
+restarts              : 1
+conflicts             : 0              (-nan /sec)
+decisions             : 10             (0.00 % random) (inf /sec)
+propagations          : 16             (inf /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 20.00 MB
+CPU time              : 0 s
+
+SATISFIABLE
+
+ SAT retornou instancia satisfativel com K=2
+
+
+
+Instâncias Maiores
+
+teste_10.txt
+
+Numero de nos inseridos : 6
+
+Gerou sat.in com K=1
+WARNING: for repeatability, setting FPU to use double precision
+============================[ Problem Statistics ]=============================
+|                                                                             |
+|  Number of variables:            10                                         |
+|  Number of clauses:              51                                         |
+|  Parse time:                   0.00 s                                       |
+|                                                                             |
+===============================================================================
+Solved by unit propagation
+restarts              : 0
+conflicts             : 0              (-nan /sec)
+decisions             : 0              (-nan % random) (-nan /sec)
+propagations          : 10             (inf /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 20.00 MB
+CPU time              : 0 s
+
+UNSATISFIABLE
+
+Gerou sat.in com K=2
+WARNING: for repeatability, setting FPU to use double precision
+============================[ Problem Statistics ]=============================
+|                                                                             |
+|  Number of variables:            20                                         |
+|  Number of clauses:             129                                         |
+|  Parse time:                   0.00 s                                       |
+|                                                                             |
+============================[ Search Statistics ]==============================
+| Conflicts |          ORIGINAL         |          LEARNT          | Progress |
+|           |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |
+===============================================================================
+===============================================================================
+restarts              : 1
+conflicts             : 0              (-nan /sec)
+decisions             : 16             (0.00 % random) (inf /sec)
+propagations          : 20             (inf /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 20.00 MB
+CPU time              : 0 s
+
+SATISFIABLE
+
+ SAT retornou instancia satisfativel com K=2
+
+ teste_30.txt
+ 
+ Numero de nos inseridos : 9
+
+Gerou sat.in com K=1
+WARNING: for repeatability, setting FPU to use double precision
+============================[ Problem Statistics ]=============================
+|                                                                             |
+|  Number of variables:            30                                         |
+|  Number of clauses:             446                                         |
+|  Parse time:                   0.00 s                                       |
+|                                                                             |
+===============================================================================
+Solved by unit propagation
+restarts              : 0
+conflicts             : 0              (-nan /sec)
+decisions             : 0              (-nan % random) (-nan /sec)
+propagations          : 30             (inf /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 20.00 MB
+CPU time              : 0 s
+
+UNSATISFIABLE
+
+Gerou sat.in com K=2
+WARNING: for repeatability, setting FPU to use double precision
+============================[ Problem Statistics ]=============================
+|                                                                             |
+|  Number of variables:            60                                         |
+|  Number of clauses:             947                                         |
+|  Parse time:                   0.00 s                                       |
+|                                                                             |
+============================[ Search Statistics ]==============================
+| Conflicts |          ORIGINAL         |          LEARNT          | Progress |
+|           |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |
+===============================================================================
+===============================================================================
+restarts              : 1
+conflicts             : 0              (-nan /sec)
+decisions             : 38             (0.00 % random) (inf /sec)
+propagations          : 60             (inf /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 20.00 MB
+CPU time              : 0 s
+
+SATISFIABLE
+
+ SAT retornou instancia satisfativel com K=2
+
+ 
+ Numero de nos inseridos : 12
+
+Gerou sat.in com K=1
+WARNING: for repeatability, setting FPU to use double precision
+============================[ Problem Statistics ]=============================
+|                                                                             |
+|  Number of variables:            50                                         |
+|  Number of clauses:            1242                                         |
+|  Parse time:                   0.00 s                                       |
+|                                                                             |
+===============================================================================
+Solved by unit propagation
+restarts              : 0
+conflicts             : 0              (-nan /sec)
+decisions             : 0              (-nan % random) (-nan /sec)
+propagations          : 50             (inf /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 20.00 MB
+CPU time              : 0 s
+
+UNSATISFIABLE
+
+Gerou sat.in com K=2
+WARNING: for repeatability, setting FPU to use double precision
+============================[ Problem Statistics ]=============================
+|                                                                             |
+|  Number of variables:           100                                         |
+|  Number of clauses:            2570                                         |
+|  Parse time:                   0.00 s                                       |
+|                                                                             |
+============================[ Search Statistics ]==============================
+| Conflicts |          ORIGINAL         |          LEARNT          | Progress |
+|           |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |
+===============================================================================
+===============================================================================
+restarts              : 1
+conflicts             : 0              (-nan /sec)
+decisions             : 61             (0.00 % random) (inf /sec)
+propagations          : 100            (inf /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 20.00 MB
+CPU time              : 0 s
+
+SATISFIABLE
+
+ SAT retornou instancia satisfativel com K=2
+
+ 
+ teste_50.txt
+ 
+ Numero de nos inseridos : 12
+
+Gerou sat.in com K=1
+WARNING: for repeatability, setting FPU to use double precision
+============================[ Problem Statistics ]=============================
+|                                                                             |
+|  Number of variables:            50                                         |
+|  Number of clauses:            1242                                         |
+|  Parse time:                   0.00 s                                       |
+|                                                                             |
+===============================================================================
+Solved by unit propagation
+restarts              : 0
+conflicts             : 0              (-nan /sec)
+decisions             : 0              (-nan % random) (-nan /sec)
+propagations          : 50             (inf /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 20.00 MB
+CPU time              : 0 s
+
+UNSATISFIABLE
+
+Gerou sat.in com K=2
+WARNING: for repeatability, setting FPU to use double precision
+============================[ Problem Statistics ]=============================
+|                                                                             |
+|  Number of variables:           100                                         |
+|  Number of clauses:            2570                                         |
+|  Parse time:                   0.00 s                                       |
+|                                                                             |
+============================[ Search Statistics ]==============================
+| Conflicts |          ORIGINAL         |          LEARNT          | Progress |
+|           |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |
+===============================================================================
+===============================================================================
+restarts              : 1
+conflicts             : 0              (-nan /sec)
+decisions             : 61             (0.00 % random) (inf /sec)
+propagations          : 100            (inf /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 20.00 MB
+CPU time              : 0 s
+
+SATISFIABLE
+
+ SAT retornou instancia satisfativel com K=2
+
+ 
+ 
+ teste_200.txt
+ 
+ 
+ Numero de nos inseridos : 30
+
+Gerou sat.in com K=1
+WARNING: for repeatability, setting FPU to use double precision
+============================[ Problem Statistics ]=============================
+|                                                                             |
+|  Number of variables:           200                                         |
+|  Number of clauses:           19928                                         |
+|  Parse time:                   0.00 s                                       |
+|                                                                             |
+===============================================================================
+Solved by unit propagation
+restarts              : 0
+conflicts             : 0              (0 /sec)
+decisions             : 0              (-nan % random) (0 /sec)
+propagations          : 200            (50000 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 20.00 MB
+CPU time              : 0.004 s
+
+UNSATISFIABLE
+
+Gerou sat.in com K=2
+WARNING: for repeatability, setting FPU to use double precision
+============================[ Problem Statistics ]=============================
+|                                                                             |
+|  Number of variables:           400                                         |
+|  Number of clauses:           40102                                         |
+|  Parse time:                   0.00 s                                       |
+|                                                                             |
+============================[ Search Statistics ]==============================
+| Conflicts |          ORIGINAL         |          LEARNT          | Progress |
+|           |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |
+===============================================================================
+===============================================================================
+restarts              : 1
+conflicts             : 0              (0 /sec)
+decisions             : 214            (0.00 % random) (26750 /sec)
+propagations          : 400            (50000 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 21.00 MB
+CPU time              : 0.008 s
+
+SATISFIABLE
+
+ SAT retornou instancia satisfativel com K=2
